@@ -39,7 +39,7 @@ componentDidMount(){
           method: 'POST',
           headers2
         })
-          //.then((r2) => r2.json())
+          .then((r2) => r2.json())
           .then((res2) => {
             console.log(res2);
           }).catch(ex=>console.log(ex))
