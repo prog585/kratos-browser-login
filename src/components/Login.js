@@ -3,8 +3,8 @@ import qs from 'qs';
 
 class Login extends Component {
 componentDidMount(){
-  const bp= 'http://127.0.0.1:4433';
-  //const bp= 'http://35.197.227.48:4433';
+  //const bp= 'http://127.0.0.1:4433';
+  const bp= 'http://35.197.227.48:4433';
   if (this.props.location.search){
     const fid = qs.parse(this.props.location.search, { ignoreQueryPrefix: true }).flow;
     console.log(fid);
