@@ -9,10 +9,10 @@ class ReactRouter extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Header />
+        <Header />  
         <Route exact path="/" component={App} />
         <Route  path="/posts" component={Posts} />
-        <Route  path="/auth/login" component={Login} />
+        <Route  path="/auth/sign-in" component={Login} />
       </React.Fragment>
     );
   }
