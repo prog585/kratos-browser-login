@@ -26,6 +26,7 @@ componentDidMount(){
           identifier: "newadmin",
           password: "Abcc@1234567"
         };
+        console.log(_input);
         const headers2 = {
           "Accept": "application/json",
           //"Content-Type": "application/json"
