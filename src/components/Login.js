@@ -34,7 +34,7 @@ componentDidMount(){
           
         //  credentials: 'include' 
         }
-        const payload = JSON.stringify(_input);
+        const payload = _input;//JSON.stringify(_input);
         fetch(action, {
           body:payload,
           method: 'POST',
